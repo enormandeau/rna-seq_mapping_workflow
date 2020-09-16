@@ -1,12 +1,14 @@
 #!/bin/bash
 
-#pre-requis
-module load apps/git/1.8.5.3
+##pre-requis
+#module load apps/git/1.8.5.3
 
-#move to current directory
+##move to current directory
 
-cd $(pwd)
+#cd $(pwd)
 
+#clone into trinity
+git clone https://github.com/trinityrnaseq/trinityrnaseq 00_scripts/trinity_utils
 
 # clone trinotate
 git clone https://github.com/Trinotate/Trinotate 00_scripts/trinotate_utils
